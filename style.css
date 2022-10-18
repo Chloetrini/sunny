@@ -1,0 +1,286 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Barlow';
+    color: hsl(212,27%,19%);
+}
+h1{
+    font-family: 'Fraunces';
+}
+header{
+    background: url('images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    background-position: bottom;
+    width: 100%;
+}
+.s{
+    text-align: center;
+    color: white;
+    padding-top: 4em;
+}
+.t li{
+    margin: 0 2em;
+}
+.t button{
+    border-radius: 4em;
+    border: none;
+    background-color: white;
+    padding: 0.5em;
+}
+nav li>a{
+    text-decoration: none;
+    color: white;
+}
+nav img{
+    padding-top: 1em;
+    margin-left: 2em;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+.first{
+    display: flex;
+}
+.tran{
+    flex-basis: 50%;
+}
+.stand{
+    flex-basis: 50%;
+}
+.second{
+    display: flex;
+}
+.b{
+    flex-basis:50% ;
+    align-content: center;
+}
+.third{
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+}
+.gra{
+    text-align: center;
+    padding: 20em 4em 0 4em;
+}
+.y{
+    align-items: center;
+    padding: 6em 5em 0 5em;
+}
+.y span{
+    font-family: 'Fraunces';
+}
+.y a{
+    text-decoration: none;
+    color: hsl(212,27%,19%);
+}
+.d{
+    border-bottom: 0.2em solid salmon;
+}
+.j{
+    border-bottom: 0.2em solid yellow
+}
+.y p{
+    margin-bottom: 2em;
+}
+.ok{
+    background: url('images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: hsl(167,40%,24%);
+    flex-basis: 50%;
+    height: 100vh;
+}
+.e{
+    background: url('images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: hsl(198,62%,26%);
+    flex-basis: 50%;
+    height: 100vh;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+}
+.em img{
+    border-radius: 50%;
+}
+.em{
+    text-align: center;
+    margin-bottom: 2em;
+    padding-left: 1em;
+}
+.we{
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: hsl(210,4%,67%);
+    margin-bottom: 3em;
+}
+.me{
+    margin: 8em;
+} 
+.th img{
+    border-radius: 50%;
+}
+.th{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.jen img{
+    border-radius: 50%;
+}
+.jen{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.four{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+footer{
+    background-color: hsl(168,34%,41%);
+    padding-top: 3em;
+    text-align: center;
+    height: 35vh;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer li>a{
+    text-decoration: none;
+    color: hsl(167,40%,24%);
+}
+.l li{
+    margin: 0 1em;
+}
+.end{
+    padding-top: 2em;
+}
+.end img{
+    margin-left: 1em;
+}
+/* MEDIA QUERIES */
+
+@media (min-width:770px) and (max-width:1440px){
+    #ham{
+        display: none;
+    }
+    .u{
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 770px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    nav ul{
+        display: none;
+    }
+    .raw{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+    }
+    nav{
+        display: inline;
+    }
+    #ham{
+        margin-right: 2em;
+    }
+    .s{
+        padding-top: 7em;
+    }
+    .first{
+        display: inline;
+    }
+    .tran{
+        display: none;
+    }
+    .second{
+        display: inline;
+    }
+    .third{
+        display: inline;
+    }
+    .p{
+        display: inline;
+    }
+    .four{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 0;
+    }
+    .b{
+        height: 50vh;
+    }
+    .u{
+        width: 100%;
+    }
+    .stand img{
+        width: 100%;
+    }
+    .ok{
+        height: 80vh;
+    }
+    .e{
+        height: 80vh;
+    }
+    .y{
+        padding: 2em 2em 0 2em;
+        text-align: center;
+    }
+    .gra{
+        padding: 15em 3em 0 3em;
+    }
+    .me{
+        margin: 2em;
+    }
+    .l li{
+        margin: 0;
+    }
+    footer ul{
+        justify-content: space-between;
+        margin: 1em 2em;
+        padding: 0;
+    }
+
+}
+
+@media (min-width:770px)and (max-width: 1000px) {
+    html,body{
+            width: 100%;
+            overflow-x: hidden;
+    }
+    .s{
+        padding-top: 8em;
+    }
+    .y{
+        padding: 1.5em;
+    }
+    .me{
+        margin: 3em;
+    }
+    }
+    @media (min-width:1000px)and (max-width: 1220px) {
+        .s{
+            padding-top:8em ;
+        }
+    }
