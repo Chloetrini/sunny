@@ -54,8 +54,14 @@ nav ul{
 .tran{
     flex-basis: 50%;
 }
+.tran img{
+    width: 100%;
+}
 .stand{
     flex-basis: 50%;
+}
+.stand img{
+    width: 100%;
 }
 .second{
     display: flex;
@@ -71,7 +77,7 @@ nav ul{
 }
 .gra{
     text-align: center;
-    padding: 20em 4em 0 4em;
+    padding: 25em 4em 0 4em;
 }
 .y{
     align-items: center;
@@ -176,7 +182,7 @@ footer li>a{
 }
 /* MEDIA QUERIES */
 
-@media (min-width:770px) and (max-width:1440px){
+@media (min-width:770px){
     #ham{
         display: none;
     }
@@ -248,7 +254,7 @@ footer li>a{
         text-align: center;
     }
     .gra{
-        padding: 15em 3em 0 3em;
+        padding: 20em 3em 0 3em;
     }
     .me{
         margin: 2em;
